@@ -1,0 +1,1 @@
+document.documentElement.classList.add('js');const b=document.querySelector('.toggle'),n=document.querySelector('.links');b.addEventListener('click',()=>{const open=n.classList.toggle('open');b.setAttribute('aria-expanded',String(open));});
